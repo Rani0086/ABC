@@ -17,7 +17,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "not_kakarot")
 BOT_USERNAME = getenv("BOT_USERNAME", "yumekomusicplayer_bot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "@lyumekomusicplayerbot")
+BOT_NAME = getenv("BOT_NAME", "yumekomusicplayer")
 
 #❖ get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME", none")
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/tinaarobot/ABC",
+    "https://t.me/queen143np",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
