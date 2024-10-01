@@ -20,7 +20,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "yumekomusicplayer_bot")
 BOT_NAME = getenv("BOT_NAME", "@lyumekomusicplayerbot")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "AVISHA_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", none")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -31,7 +31,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002009280180"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002410165796))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7283182219"))
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/roy_editx")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_friendz")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Hindi_new_Animes")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RADIANTXBEINGS")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
